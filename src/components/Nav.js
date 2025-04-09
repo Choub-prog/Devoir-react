@@ -5,34 +5,23 @@ const Nav = () => {
     return (
         <header >
             <nav >
-                <div>
-                    <img src="assets/favicon/anonym.png" alt="logo" width={30} />
-                    <div>
-            <ul >
-                <Link to="/">
-                    <li>Accueil
-                    </li>
-                </Link>
-                
-                <Link to="/services">
-                    <li>Services
-                    </li>
-                </Link>
-                <Link to="/projects">
-                    <li>Réalisations 
-                    </li>
-                </Link>
-                    <Link to="/contact">
-                    <li>Contact
-                    </li>
-                </Link>
-                <Link to="/legal-notices">
-                    <li>Mentions-légals
-                    </li>
-                </Link>
+            <ul>
+            <li>
+                <Link to="/" >Accueil</Link>
+            </li>
+            <li>
+                <Link to="/services" >Services</Link>
+            </li>
+            <li>
+                <Link to="/projects" >Réalisations</Link>
+            </li>
+            <li>
+                <Link to="/contact" >Contact</Link>
+            </li>
+            <li>
+                <Link to="/" >Mentions légales</Link>
+            </li>
             </ul>
-            </div>
-            </div>
             </nav>
         </header>
     );
