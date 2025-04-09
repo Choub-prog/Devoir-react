@@ -1,29 +1,45 @@
 import React from 'react';
-import { Link } from "react-router-dom"
+import { NavLink } from "react-router-dom"
+import "../styles/Nav.css"
+
+
+function isActive () {
+    if ( isActive ) {
+        
+    }
+}
 
 const Nav = () => {
     return (
-        <header >
-            <nav >
-            <ul>
-            <li>
-                <Link to="/" >Accueil</Link>
-            </li>
-            <li>
-                <Link to="/services" >Services</Link>
-            </li>
-            <li>
-                <Link to="/projects" >Réalisations</Link>
-            </li>
-            <li>
-                <Link to="/contact" >Contact</Link>
-            </li>
-            <li>
-                <Link to="/" >Mentions légales</Link>
-            </li>
+        <header>
+            <nav className='navbar navbar-expand-lg bg-dark'>
+                <div className='container-fluid'>
+                <span className='navbar-brand'>John Doe</span>
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
+    </button>
+    <div className="collapse navbar-collapse" id='navbarSupportedContent'>
+                <ul className='navbar-nav'>
+                    <li className='nav-item'>
+                        <NavLink className={({ isActive }) => `${isActive ? 'active-link' : ''} nav-link`} to="/" >Accueil</NavLink>
+                    </li>
+                    <li>
+                        <NavLink className={({ isActive }) => `${isActive ? 'active-link' : ''} nav-link`} to="/services" >Services</NavLink>
+                    </li>
+                    <li>
+                        <NavLink className={({ isActive }) => `${isActive ? 'active-link' : ''} nav-link`} to="/projects" >Réalisations</NavLink>
+                    </li>
+                    <li>
+                        <NavLink className={({ isActive }) => `${isActive ? 'active-link' : ''} nav-link`} to="/contact" >Contact</NavLink>
+                    </li>
+                    <li>
+                        <NavLink className={({ isActive }) => `${isActive ? 'active-link' : ''} nav-link`} to="/legal-notices" >Mentions légales</NavLink>
+                    </li>
             </ul>
-            </nav>
-        </header>
+            </div>
+            </div>
+        </nav>
+</header>
     );
 };
 
