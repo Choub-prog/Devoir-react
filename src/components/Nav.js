@@ -4,9 +4,9 @@ import '../styles/Nav.css';
 
 const Nav = () => {
   const links = [
-    { id: 1, to: '/', label: 'Accueil' },
+    { id: 1, to: '/', label: 'Home' },
     { id: 2, to: '/services', label: 'Services' },
-    { id: 3, to: '/projects', label: 'Réalisations' },
+    { id: 3, to: '/projects', label: 'Portfolio' },
     { id: 4, to: '/contact', label: 'Contact' },
     { id: 5, to: '/legal-notices', label: 'Mentions légales' },
   ];
