@@ -1,3 +1,9 @@
 .active-link {
-    color: blueviolet;
+    color: #d63384;
+    font-weight: 650;
+    text-decoration: underline;
+}
+
+.item-nav-hover:hover {
+    text-decoration: underline;
 }
