@@ -7,8 +7,6 @@ import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import LegalNotices from './pages/LegalNotices';
 
-import Nav from './components/Nav';
-
 const App = () => {
   return (
     <div className="App">
