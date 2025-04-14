@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import Identify from './Identify';
 import '../styles/Nav.css';
 
 const Nav = () => {
@@ -13,11 +14,12 @@ const Nav = () => {
 
   return (
     <header>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav className="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
         <div className="container-fluid ">
-          <span className="navbar-brand text-white text-uppercase">
-            John Doe
-          </span>
+          <Identify
+            className="navbar-brand text-white text-uppercase"
+            name="John Doe"
+          ></Identify>
           <button
             className="navbar-toggler navbar-light"
             data-bs-toggle="collapse"
