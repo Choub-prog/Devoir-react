@@ -35,44 +35,22 @@ export const footerSections = [
   {
     title: 'Liens utiles',
     items: [
-      <NavLink className="text-decoration-none text-white" to="/">
-        Accueil
-      </NavLink>,
-      <NavLink className="text-decoration-none text-white" to="/services">
-        Services
-      </NavLink>,
-      <NavLink className="text-decoration-none text-white" to="/portfolio">
-        Portfolio
-      </NavLink>,
-      <NavLink className="text-decoration-none text-white" to="/contact">
-        Contact
-      </NavLink>,
-      <NavLink className="text-decoration-none text-white" to="/legal-notices">
-        Mentions légales
-      </NavLink>,
+      <NavLink to="/">Accueil</NavLink>,
+      <NavLink to="/services">Services</NavLink>,
+      <NavLink to="/portfolio">Portfolio</NavLink>,
+      <NavLink to="/contact">Contact</NavLink>,
+      <NavLink to="/legal-notices">Mentions légales</NavLink>,
     ],
   },
   {
     title: 'Mes dernières réalisations',
     items: [
-      <NavLink className="text-decoration-none text-white" to="/">
-        Fresh Food
-      </NavLink>,
-      <NavLink className="text-decoration-none text-white" to="/">
-        Restaurant Akira
-      </NavLink>,
-      <NavLink className="text-decoration-none text-white" to="/">
-        Espace bien-être
-      </NavLink>,
-      <NavLink className="text-decoration-none text-white" to="/">
-        SEO
-      </NavLink>,
-      <NavLink className="text-decoration-none text-white" to="/">
-        Création d'une API
-      </NavLink>,
-      <NavLink className="text-decoration-none text-white" to="/">
-        Maquette d'un site
-      </NavLink>,
+      <NavLink to="/">Fresh Food</NavLink>,
+      <NavLink to="/">Restaurant Akira</NavLink>,
+      <NavLink to="/">Espace bien-être</NavLink>,
+      <NavLink to="/">SEO</NavLink>,
+      <NavLink to="/">Création d'une API</NavLink>,
+      <NavLink to="/">Maquette d'un site</NavLink>,
     ],
   },
 ];

@@ -9,7 +9,13 @@ function UnorderedList({ items }) {
         }
 
         if (React.isValidElement(item)) {
-          return <li key={i}>{item}</li>;
+          return (
+            <li key={i}>
+              {React.cloneElement(item, {
+                className: 'text-white text-decoration-none',
+              })}
+            </li>
+          );
         }
 
         if (item.type === 'icons') {

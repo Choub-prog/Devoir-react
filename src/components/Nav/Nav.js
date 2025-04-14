@@ -33,7 +33,7 @@ const Nav = () => {
           <div className="collapse navbar-collapse " id="menu">
             <ul className="navbar-nav ms-auto">
               {links.map((link) => (
-                <li key={link.id} className="nav-item">
+                <li key={link.id} className="nav-item text-nowrap">
                   <NavLink
                     to={link.to}
                     className={({ isActive }) =>
