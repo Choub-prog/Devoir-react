@@ -1,21 +1,21 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import Identify from './Identify';
-import '../styles/Nav.css';
+import Identify from '../Identify';
+import './Nav.css';
 
 const Nav = () => {
   const links = [
     { id: 1, to: '/', label: 'Home' },
     { id: 2, to: '/services', label: 'Services' },
-    { id: 3, to: '/projects', label: 'Portfolio' },
+    { id: 3, to: '/portfolio', label: 'Portfolio' },
     { id: 4, to: '/contact', label: 'Contact' },
     { id: 5, to: '/legal-notices', label: 'Mentions légales' },
   ];
 
   return (
     <header>
-      <nav className="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
-        <div className="container-fluid ">
+      <nav className="navbar sticky-top navbar-expand-md navbar-dark bg-dark">
+        <div className="container-fluid ms-5 me-5">
           <Identify
             className="navbar-brand text-white text-uppercase"
             name="John Doe"
