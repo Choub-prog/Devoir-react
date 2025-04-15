@@ -1,4 +1,4 @@
-import Identify from '../components/Identify';
+import Identify from '../Identify';
 import { NavLink } from 'react-router-dom';
 //data for footer column
 
@@ -14,18 +14,18 @@ export const footerSections = [
         type: 'icons',
         icons: [
           {
-            src: '/assets/icones/github.svg',
-            alt: 'GitHub',
+            class: 'bi bi-github custom-icon',
+            title: 'GitHub',
             href: 'https://github.com/github-john-doe',
           },
           {
-            src: '/assets/icones/twitter.svg',
-            alt: 'Twitter',
-            href: 'https://x.com/?lang=fr',
+            class: 'bi bi-twitter custom-icon',
+            title: 'Twitter',
+            href: 'https://x.com/',
           },
           {
-            src: '/assets/icones/linkedin.svg',
-            alt: 'Linkedin',
+            class: 'bi bi-linkedin custom-icon',
+            title: 'Linkedin',
             href: 'https://www.linkedin.com/?trk=people-guest_nav-header-logo',
           },
         ],

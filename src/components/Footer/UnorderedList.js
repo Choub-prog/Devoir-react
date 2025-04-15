@@ -1,4 +1,6 @@
 import React from 'react';
+import './footer.css';
+import HoverIcon from './HoverIcon';
 
 function UnorderedList({ items }) {
   return (
@@ -28,7 +30,7 @@ function UnorderedList({ items }) {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src={icon.src} alt={icon.alt} />
+                  <HoverIcon className={icon.class} alt={icon.title} />
                 </a>
               ))}
             </li>

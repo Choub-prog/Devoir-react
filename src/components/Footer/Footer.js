@@ -1,5 +1,5 @@
 import React from 'react';
-import { footerSections } from '../../data/footerData';
+import { footerSections } from './footerData';
 import UnorderedList from './UnorderedList';
 
 const Footer = () => {
