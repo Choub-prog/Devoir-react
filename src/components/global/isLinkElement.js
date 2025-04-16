@@ -4,7 +4,6 @@ const isLinkElement = (item) => {
   if (item?.type === NavLink) {
     return true;
   }
-
   return false;
 };
 
