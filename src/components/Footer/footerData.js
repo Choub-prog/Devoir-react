@@ -1,15 +1,14 @@
 import Identify from '../Identify';
 import { NavLink } from 'react-router-dom';
+import { contactData } from '../global/contactData';
+import PersonalInfo from '../global/PersonalInfo';
 //data for footer column
 
 export const footerSections = [
   {
     title: <Identify name="John Doe" />,
     items: [
-      '40 rue Laure Diebold',
-      '69009 Lyon, France',
-      '10 20 30 40 50',
-      'john.doe@gmail.com',
+      <PersonalInfo {...contactData} />,
       {
         type: 'icons',
         icons: [
