@@ -4,7 +4,7 @@ import UnorderedList from './UnorderedList';
 
 const Footer = () => {
   return (
-    <footer className="fixed-end py-4 bg-dark text-white">
+    <footer className="fixed-end py-4 bg-dark text-white ps-4">
       <div className="container">
         <div className="row text-start">
           {footerSections.map((section, index) => (

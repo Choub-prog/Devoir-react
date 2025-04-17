@@ -3,6 +3,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
-    opacity: 75%;
+    background-color: rgb(255,255,255, 0.2);
+    background-blend-mode: lighten;
 }
