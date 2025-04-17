@@ -1,8 +1,8 @@
 import React from 'react';
 import './footer.css';
 import HoverIcon from './HoverIcon';
-import UnderlineHover from '../Global/UnderlineHover';
-import isLinkElement from '../Global/isLinkElement';
+import UnderlineHover from '../global/UnderlineHover';
+import isLinkElement from '../global/isLinkElement';
 
 function UnorderedList({ items }) {
   return (

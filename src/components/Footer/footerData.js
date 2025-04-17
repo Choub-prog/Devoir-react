@@ -1,7 +1,7 @@
 import Identify from '../Identify';
 import { NavLink } from 'react-router-dom';
-import { contactData } from '../Global/contactData';
-import PersonalInfo from '../Global/PersonalInfo';
+import { contactData } from '../global/contactData';
+import PersonalInfo from '../global/PersonalInfo';
 //data for footer column
 
 export const footerSections = [

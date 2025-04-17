@@ -1,7 +1,7 @@
 import React from 'react';
-import Nav from '../components/Nav/Nav';
-import FisrtSectionHome from '../components/Home/FirstSectionHome';
-import Footer from '../components/Footer/Footer';
+import Nav from '../components/nav/Nav';
+import FisrtSectionHome from '../components/homePage/FirstSectionHome';
+import Footer from '../components/footer/Footer';
 
 const Home = () => {
   return (
