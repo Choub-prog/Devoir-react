@@ -1,6 +1,7 @@
 import React from 'react';
 import './home.css';
 import Presentation from './Presentation';
+import Button from '../global/Button';
 
 const MainHome = () => {
   return (
@@ -13,9 +14,9 @@ const MainHome = () => {
           <h2 className="display-3 fw-semibold px-5 mx-2">
             Développeur web full stack
           </h2>
-          <button type="button" className=" btn btn-danger mt-3 px-4 py-2">
+          <Button color="primary" onClick={() => {}}>
             En savoir plus
-          </button>
+          </Button>
         </div>
       </section>
       <Presentation />
