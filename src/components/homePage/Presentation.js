@@ -1,5 +1,6 @@
 import React from 'react';
 import LoremP from './LoremP';
+import Bar from './Bar';
 
 const Presentation = () => {
   return (
@@ -23,76 +24,16 @@ const Presentation = () => {
             <h2 className="py-2 mb-5 border-bottom border-4 border-primary">
               Mes compétences
             </h2>
-            <p className="mt-3 mb-1">Html5 90%</p>
-            <div
-              className="progress"
-              role="progressbar"
-              aria-label="Success example"
-              aria-valuenow="25"
-              aria-valuemin="0"
-              aria-valuemax="100"
-            >
-              <div
-                className="progress-bar bg-danger"
-                style={{ width: '90%' }}
-              ></div>
-            </div>
-            <p className="mt-3 mb-1">Css3 80%</p>
-            <div
-              className="progress"
-              role="progressbar"
-              aria-label="Info example"
-              aria-valuenow="50"
-              aria-valuemin="0"
-              aria-valuemax="100"
-            >
-              <div
-                className="progress-bar bg-info"
-                style={{ width: '80%' }}
-              ></div>
-            </div>
-            <p className="mt-3 mb-1">Javascript 70%</p>
-            <div
-              className="progress"
-              role="progressbar"
-              aria-label="Warning example"
-              aria-valuenow="75"
-              aria-valuemin="0"
-              aria-valuemax="100"
-            >
-              <div
-                className="progress-bar bg-warning"
-                style={{ width: '70%' }}
-              ></div>
-            </div>
-            <p className="mt-3 mb-1">Php 60%</p>
-            <div
-              className="progress"
-              role="progressbar"
-              aria-label="Danger example"
-              aria-valuenow="100"
-              aria-valuemin="0"
-              aria-valuemax="100"
-            >
-              <div
-                className="progress-bar bg-success"
-                style={{ width: '60%' }}
-              ></div>
-            </div>
-            <p className="mt-3 mb-1">React 50%</p>
-            <div
-              className="progress"
-              role="progressbar"
-              aria-label="Danger example"
-              aria-valuenow="100"
-              aria-valuemin="0"
-              aria-valuemax="100"
-            >
-              <div
-                className="progress-bar bg-default"
-                style={{ width: '50%' }}
-              ></div>
-            </div>
+            <Bar valuep="html5 90%" width="90%" value={90} color="danger" />
+            <Bar valuep="Css3 80%" width="80%" value={80} color="info" />
+            <Bar
+              valuep="Javascript 70%"
+              width="70%"
+              value={70}
+              color="warning"
+            />
+            <Bar valuep="Php 60%" width="60%" value={60} color="success" />
+            <Bar valuep="React 50%" width="50%" value={50} color="default" />
           </div>
         </div>
       </div>
