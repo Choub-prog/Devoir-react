@@ -1,13 +1,13 @@
 import React from 'react';
 import Nav from '../components/nav/Nav';
-import FisrtSectionHome from '../components/homePage/FirstSectionHome';
+import MainHome from '../components/homePage/MainHome';
 import Footer from '../components/footer/Footer';
 
 const Home = () => {
   return (
     <div>
       <Nav />
-      <FisrtSectionHome />
+      <MainHome />
       <Footer />
     </div>
   );
