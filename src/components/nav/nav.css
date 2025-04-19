@@ -1,6 +1,7 @@
 .active-link {
-    color: #d63384;
+    color: #ffffff;
     text-decoration: underline;
+    font-weight: 800;
 }
 
 .item-nav-hover:hover {

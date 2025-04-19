@@ -16,12 +16,8 @@ const MainHome = () => {
       <section className=" backgroundImage position-relative text-white d-flex flex-column vh-100 justify-content-center align-items-center">
         {isModalVisible && <Modal onClose={handleCloseModal} />}
         <div className="position-relative text-center">
-          <h1 className="display-2 fw-semibold px-5 mx-2">
-            Bonjour, je suis John Doe
-          </h1>
-          <h2 className="display-3 fw-semibold px-5 mx-2">
-            Développeur web full stack
-          </h2>
+          <h1 className="display-2 fw-semibold px-5 mx-2">Bonjour, je suis John Doe</h1>
+          <h2 className="display-3 fw-semibold px-5 mx-2">Développeur web full stack</h2>
           <Button color="danger" onClick={() => SetIsModalVisible(true)}>
             En savoir plus
           </Button>
