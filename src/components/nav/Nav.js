@@ -14,7 +14,7 @@ const Nav = () => {
 
   return (
     <header>
-      <nav className="navbar sticky-top navbar-expand-md navbar-dark bg-dark">
+      <nav className="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
         <div className="container-fluid ms-5 me-5">
           <Identify
             className="navbar-brand text-white text-uppercase"
