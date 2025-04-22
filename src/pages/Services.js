@@ -1,12 +1,13 @@
 import React from 'react';
 import Nav from '../components/nav/Nav';
 import Footer from '../components/footer/Footer';
+import MainService from '../components/servicesPage/MainService';
 
 const Service = () => {
   return (
     <div>
       <Nav />
-      <h1>Service</h1>
+      <MainService />
       <Footer />
     </div>
   );
