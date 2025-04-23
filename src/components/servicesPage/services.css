@@ -15,3 +15,7 @@ i {
       width: 25%;
     }
   }
+
+.card:hover {
+    background-color: #efefef;
+}

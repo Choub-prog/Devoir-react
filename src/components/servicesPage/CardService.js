@@ -21,18 +21,20 @@ const CardService = () => {
   ];
 
   return (
-    <div className="card-group text-center container">
-      {cardInfo.map((card, index) => (
-        <div className=" card mt-5 mb-5 ms-4" key={index}>
-          <div className="card h-100 pt-5">
-            <i className={`bi ${card.icon}`} style={{ fontSize: '2rem' }}></i>
-            <div className="card-body">
-              <h3 className="card-title">{card.title}</h3>
-              <p className="card-text">{card.text}</p>
+    <div className="text-center container py-5">
+      <div className="row justify-content-center g-4">
+        {cardInfo.map((card, index) => (
+          <div className="col-12 col-md-4" key={index}>
+            <div className="card h-100 pt-5">
+              <i className={`bi ${card.icon}`} style={{ fontSize: '2rem' }}></i>
+              <div className="card-body">
+                <h3 className="card-title">{card.title}</h3>
+                <p className="card-text">{card.text}</p>
+              </div>
             </div>
           </div>
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
   );
 };
