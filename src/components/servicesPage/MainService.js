@@ -1,6 +1,7 @@
 import React from 'react';
 import Banner from '../global/Banner';
 import CardService from './CardService';
+import SectionTitleP from '../global/SectionTitleP';
 
 const MainService = () => {
   const titleService = 'Mon offre de services';
@@ -9,15 +10,7 @@ const MainService = () => {
   return (
     <main>
       <Banner />
-      <section className="py-1 text-center container">
-        <div className="row pt-5">
-          <div className="col-lg-6 mx-auto">
-            <h2 className="">{titleService}</h2>
-            <p className="">{benefits}</p>
-            <div className="custom-border mx-auto"></div>
-          </div>
-        </div>
-      </section>
+      <SectionTitleP title={titleService} text={benefits} />
       <section>
         <CardService />
       </section>
