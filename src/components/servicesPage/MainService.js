@@ -7,9 +7,17 @@ const MainService = () => {
 
   return (
     <main>
-      <section className="text-center">
-        <h2>{titleService}</h2>
-        <p className="border-bottom border-primary">{benefits}</p>
+      <img src="/assets/images/banner.jpg" alt="banner" className="img-fluid" />
+      <section className="py-1 text-center container">
+        <div className="row pt-5">
+          <div className="col-lg-6 mx-auto">
+            <h2 className="">{titleService}</h2>
+            <p className="">{benefits}</p>
+            <div className="custom-border mx-auto"></div>
+          </div>
+        </div>
+      </section>
+      <section>
         <CardService />
       </section>
     </main>

@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="row text-start">
           {footerSections.map((section, index) => (
             <div className="col-md-4 py-2" key={index}>
-              <h3 className="fs-4">{section.title}</h3>
+              <h4 className="fs-4">{section.title}</h4>
               <UnorderedList items={section.items} />
             </div>
           ))}

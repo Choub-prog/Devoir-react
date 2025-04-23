@@ -1,0 +1,17 @@
+i {
+    color: #0d6efd;
+}
+
+.custom-border {
+    border-bottom: 4px solid var(--bs-primary);
+    width: 100%;
+    max-width: 400px;
+    height: 1px;
+  
+  }
+  
+  @media (max-width: 576px) {
+    .custom-border {
+      width: 25%;
+    }
+  }
