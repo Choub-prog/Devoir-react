@@ -4,7 +4,7 @@ import { contactData } from '../global/contactData';
 import PersonalInfo from '../global/PersonalInfo';
 //data for footer column
 
-export const footerSections = [
+export const footerData = [
   {
     title: <Identify name="John Doe" />,
     items: [

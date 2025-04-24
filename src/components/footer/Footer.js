@@ -1,5 +1,5 @@
 import React from 'react';
-import { footerSections } from './footerData';
+import { footerData } from './footerData';
 import UnorderedList from './UnorderedList';
 
 const Footer = () => {
@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="fixed-end py-4 bg-dark text-white ps-4">
       <div className="container">
         <div className="row text-start">
-          {footerSections.map((section, index) => (
+          {footerData.map((section, index) => (
             <div className="col-md-4 py-2" key={index}>
               <h4 className="fs-4">{section.title}</h4>
               <UnorderedList items={section.items} />
