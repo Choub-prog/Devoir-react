@@ -67,5 +67,6 @@ h1, h2, h3, h4, h5, h6, strong {
 
 .card:hover {
   box-shadow: 1px 1px 12px 
-#555
+#555;
+background-color: #efefef;
 }
