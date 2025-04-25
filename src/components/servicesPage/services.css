@@ -1,7 +1,6 @@
 .custom-border {
     border-bottom: 4px solid var(--bs-primary);
     width: 100%;
-    max-width: 400px;
     height: 1px;
   
   }

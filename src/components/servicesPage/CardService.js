@@ -21,7 +21,7 @@ const CardService = () => {
   ];
 
   return (
-    <div className="text-center container py-5">
+    <div className="text-center container py-4">
       <div className="row justify-content-center g-4">
         {cardInfo.map((card, index) => (
           <div className="col-12 col-md-4" key={index}>

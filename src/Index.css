@@ -58,8 +58,14 @@ body {
 
 main {
   padding-top: 56px;
+  margin-bottom: 2em;
 }
 
 h1, h2, h3, h4, h5, h6, strong {
     font-weight: 600;
+}
+
+.card:hover {
+  box-shadow: 1px 1px 12px 
+#555
 }
