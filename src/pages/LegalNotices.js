@@ -1,12 +1,13 @@
 import React from 'react';
 import Nav from '../components/nav/Nav';
+import LegalNMain from '../components/legalNotices/LegalNMain';
 import Footer from '../components/footer/Footer';
 
 const LegalNotices = () => {
   return (
     <div>
       <Nav />
-      <h1>Mentions légales</h1>
+      <LegalNMain />
       <Footer />
     </div>
   );

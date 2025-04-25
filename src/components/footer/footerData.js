@@ -1,4 +1,4 @@
-import Identify from '../Identify';
+import Identify from '../global/Identify';
 import { NavLink } from 'react-router-dom';
 import { contactData } from '../global/contactData';
 import PersonalInfo from '../global/PersonalInfo';
