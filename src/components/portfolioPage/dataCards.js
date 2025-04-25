@@ -2,7 +2,7 @@ export const dataCards = [
   {
     img: { src: '/assets/images/portfolio/fresh-food.jpg', alt: 'fresh-food' },
     title: 'Fresh Food',
-    text: 'Site de vente de produits frai en ligne',
+    text: 'Site de vente de produits frais en ligne',
     footer: 'Site réalisé avec PHP et MySQL',
   },
   {
