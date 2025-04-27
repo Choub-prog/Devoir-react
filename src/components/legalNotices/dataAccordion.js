@@ -9,7 +9,7 @@ export const dataAccordion = [
     content: (
       <>
         <Identify name="John Doe" className="h4" />
-        <PersonalInfo {...contactData} />
+        <PersonalInfo withIcons {...contactData} />
       </>
     ),
   },
@@ -20,7 +20,8 @@ export const dataAccordion = [
       <>
         <h4>alwaysdata</h4>
         <p>91 Rue du Faubourg Saint-Honoré, 75008 Paris</p>
-        <a href="www.alwaysdata.com">www.alwaysdata.com</a>'
+        <i className="bi bi-globe"> </i>
+        <a href="www.alwaysdata.com">www.alwaysdata.com</a>
       </>
     ),
   },
@@ -37,14 +38,18 @@ export const dataAccordion = [
           </a>
         </p>
         <p>
-          Les images utilisées sur ce site sont libres de droits et ont été obtenues sur
-          le site <a href="https://pixabay.com/fr">Pixabay</a>
+          <em>
+            Les images utilisées sur ce site sont libres de droits et ont été obtenues sur
+            le site <a href="https://pixabay.com/fr">Pixabay</a>
+          </em>
         </p>
         <p>
-          La favicon de ce site a été fournie par{' '}
-          <a href="https://www.flaticon.com/de/kostenlose-icons/john-doe">
-            John doe Icons erstellt von Freepik - Flaticon
-          </a>
+          <em>
+            La favicon de ce site a été fournie par{' '}
+            <a href="https://www.flaticon.com/de/kostenlose-icons/john-doe">
+              John doe Icons erstellt von Freepik - Flaticon
+            </a>
+          </em>
         </p>
       </>
     ),
