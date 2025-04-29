@@ -1,0 +1,10 @@
+.section-title-border {
+    width: 100% ;
+    max-width: 35rem;
+}
+
+@media (max-width: 576px) {
+    .section-title-border {
+        max-width: 8rem;
+    }
+}
