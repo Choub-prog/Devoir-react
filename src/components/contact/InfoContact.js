@@ -1,10 +1,16 @@
 import React from 'react';
-import SectionTitleP from '../global/SectionTitleP';
+import Identify from '../global/Identify';
+import PersonalInfo from '../global/PersonalInfo';
+import { contactData } from '../global/contactData';
+import IframeComponent from './IframeComponent';
 
 const InfoContact = () => {
   return (
-    <div className="col-md-6">
-      <SectionTitleP title="Mes coordonnées" isWide={true} />
+    <div>
+      <h2 className="py-2 mb-5 border-bottom border-4 border-primary">Mes coordonnées</h2>
+      <Identify name="John Doe" className="h4" />
+      <PersonalInfo withIcons {...contactData} />
+      <IframeComponent />
     </div>
   );
 };

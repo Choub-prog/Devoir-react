@@ -1,5 +1,6 @@
 import React from 'react';
 import SectionTitleP from '../global/SectionTitleP';
+import LayoutSection from '../global/LayoutSection';
 import FormContact from './FormContact';
 import InfoContact from './InfoContact';
 
@@ -10,12 +11,7 @@ const HomeContact = () => {
   return (
     <main>
       <SectionTitleP title="Contact" text={TexteTitle} isWide={true} />
-      <div className="container">
-        <div className="row col-lg-12">
-          <FormContact />
-          <InfoContact />
-        </div>
-      </div>
+      <LayoutSection childrenLeft={<FormContact />} childrenRight={<InfoContact />} />
     </main>
   );
 };

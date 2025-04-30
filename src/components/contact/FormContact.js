@@ -1,11 +1,12 @@
 import React from 'react';
-import SectionTitleP from '../global/SectionTitleP';
 
 const FormContact = () => {
   return (
-    <form className="col-md-6">
-      <SectionTitleP title="Formulaire de contact" isWide={true} />
-    </form>
+    <div>
+      <h2 className="py-2 mb-5 border-bottom border-4 border-primary">
+        Formulaire de contact
+      </h2>
+    </div>
   );
 };
 
