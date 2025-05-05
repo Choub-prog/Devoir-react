@@ -16,17 +16,17 @@ const FormContact = () => {
           <div>
             {fields.map((field) =>
               field.isTextarea ? (
-                <textarea
-                  key={field.name}
-                  className="form-control mb-3"
-                  name={field.name}
-                  value={formData[field.name]}
-                  onChange={handleChange}
-                  placeholder={field.placeholder}
-                  aria-label={field.ariaLabel}
-                  required
-                  style={field.height ? { height: field.height } : undefined}
-                />
+                <div className="ratio ratio-16x9" key={field.name}>
+                  <textarea
+                    className="form-control mb-3"
+                    name={field.name}
+                    value={formData[field.name]}
+                    onChange={handleChange}
+                    placeholder={field.placeholder}
+                    aria-label={field.ariaLabel}
+                    required
+                  />
+                </div>
               ) : (
                 <input
                   key={field.name}

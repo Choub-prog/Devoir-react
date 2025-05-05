@@ -12,7 +12,7 @@ const IframeComponent = () => {
         loading="lazy"
         referrerPolicy="no-referrer-when-downgrade"
         title="Google Map - Adresse John Doe"
-      ></iframe>
+      />
     </div>
   );
 };

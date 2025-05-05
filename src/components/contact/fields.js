@@ -18,7 +18,6 @@ const fields = [
     isTextarea: true,
     placeholder: 'Votre message',
     ariaLabel: 'Message',
-    height: '350px',
   },
 ];
 
