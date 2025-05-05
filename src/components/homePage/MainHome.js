@@ -17,7 +17,9 @@ const MainHome = () => {
         {isModalVisible && <Modal onClose={handleCloseModal} />}
         <div className="position-relative text-center">
           <h1 className="display-2 fw-semibold px-5 mx-2">Bonjour, je suis John Doe</h1>
-          <h2 className="display-3 fw-semibold px-5 mx-2">Développeur web full stack</h2>
+          <h2 className="display-3 fw-semibold px-5 mx-2">
+            <strong>Développeur web full stack</strong>
+          </h2>
           <Button color="danger" onClick={() => SetIsModalVisible(true)}>
             En savoir plus
           </Button>

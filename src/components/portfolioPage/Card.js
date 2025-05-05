@@ -19,7 +19,7 @@ const Card = () => {
             <div className="card col text-center mb-3 h-100">
               <img src={cards.img.src} className="card-img-top" alt={cards.img.alt} />
               <div className="card-body px-0 pb-0">
-                <h3 className="card-title">{cards.title}</h3>
+                <h2 className="card-title">{cards.title}</h2>
                 <p className="card-text mb-0">{cards.text}</p>
                 <Button color="primary mb-3 lighten-on-hover" onClick={redirect}>
                   Voir le Site

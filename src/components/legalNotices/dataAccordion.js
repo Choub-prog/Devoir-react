@@ -7,29 +7,29 @@ export const dataAccordion = [
     id: 'One',
     header: 'Editeur du site',
     content: (
-      <>
+      <article>
         <Identify name="John Doe" className="h4" />
         <PersonalInfo withIcons {...contactData} />
-      </>
+      </article>
     ),
   },
   {
     id: 'Two',
     header: 'Hébergeur',
     content: (
-      <>
+      <article>
         <h4>alwaysdata</h4>
         <p>91 Rue du Faubourg Saint-Honoré, 75008 Paris</p>
         <i className="bi bi-globe"> </i>
         <a href="www.alwaysdata.com">www.alwaysdata.com</a>
-      </>
+      </article>
     ),
   },
   {
     id: 'Three',
     header: 'Crédits',
     content: (
-      <>
+      <article>
         <h4>Crédits</h4>
         <p>
           Ce site a été réalisé par John Doe, étudiant au{' '}
@@ -51,7 +51,7 @@ export const dataAccordion = [
             </a>
           </em>
         </p>
-      </>
+      </article>
     ),
   },
 ];

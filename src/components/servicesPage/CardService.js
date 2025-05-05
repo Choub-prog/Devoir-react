@@ -31,7 +31,9 @@ const CardService = () => {
                 style={{ fontSize: '2rem', color: '#0d6efd' }}
               ></i>
               <div className="card-body">
-                <h3 className="card-title">{card.title}</h3>
+                <h3 className="card-title">
+                  <strong>{card.title}</strong>
+                </h3>
                 <p className="card-text">{card.text}</p>
               </div>
             </div>
