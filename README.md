@@ -2,10 +2,10 @@
 
 This project aims to showcase the front-end development skills acquired by John Doe, who is currently seeking a work-study position.
 
-## It is a single page Application (SPA), that includes :
+## It is a Single Page Application (SPA), which includes :
 
 - A contact form
-- Link to completed projects
+- Links to completed projects
 - A link to the GitHub profile
 - Information about the services offered.
 
@@ -18,35 +18,40 @@ This project aims to showcase the front-end development skills acquired by John 
 
 ## Technologies used : 
 
--HTML5
--CSS3
+- HTML5
+- CSS3
 - JavaScript(ES6)
--React
--Bootstrap
--Git
--GitHub
+- React
+- Bootstrap
+- Git
+- GitHub
 
 
-###  Before getting started, make sure you have installed : 
+##  Before getting started, make sure you have installed : 
 
-Node.js ( v.16 or higher )
+- Node.js ( v.16 or higher )
 npm ( comes with Node.js )
 
 
-### 1. Install the project :
-Clone the repository :
-git clone https://github.com/Choub-prog/Devoir-react.git
+## 1. Install the project :
+## Clone the repository :
+
+### `git clone https://github.com/Choub-prog/Devoir-react.git`
 
 ## Navigate to the project folder :
-cd Devoir-react
 
-### 2. Install dependencies :
-npm install
+### `cd Devoir-react`
 
-If needed :
-npm install react-icons
+## 2. Install dependencies :
 
-### 3. Start the project locally :
-npm start
+### `npm install`
+
+## If needed :
+
+### `npm install react-icons`
+
+## 3. Start the project locally :
+
+### `npm start`
 
 The project will be available at http://localhost:3000 to view in your browser. 
