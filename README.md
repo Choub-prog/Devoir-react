@@ -44,7 +44,7 @@ npm ( comes with Node.js )
 
 ## 2. Install dependencies :
 
-### `npm install`
+### `npm install --legacy-peer-deps`
 
 ## If needed :
 
