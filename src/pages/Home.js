@@ -1,11 +1,14 @@
 import React from 'react';
-import Nav from '../components/Nav';
+import Nav from '../components/nav/Nav';
+import MainHome from '../components/homePage/MainHome';
+import Footer from '../components/footer/Footer';
 
 const Home = () => {
   return (
     <div>
       <Nav />
-      <h1>Accueil</h1>
+      <MainHome />
+      <Footer />
     </div>
   );
 };
