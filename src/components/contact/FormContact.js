@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from '../global/Button';
-import useFormContact from './useFormContact';
-import fields from './fields';
+import useFormContact from './utils/useFormContact';
+import fields from './data/fields';
 
 const FormContact = () => {
   const { formData, handleChange, handleSubmit } = useFormContact();

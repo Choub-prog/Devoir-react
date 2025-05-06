@@ -1,7 +1,6 @@
 import React from 'react';
-import '../contact/contact.css';
 
-//Utiliser pour les pages: Mention légales, Portfolio, Contact et Services.
+// Utiliser pour les pages: Mention légales, Portfolio, Contact et Services.
 
 const SectionTitleP = (props) => {
   return (

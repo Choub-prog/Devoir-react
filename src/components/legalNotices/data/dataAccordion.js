@@ -1,6 +1,6 @@
-import { contactData } from '../global/contactData';
-import PersonalInfo from '../global/PersonalInfo';
-import Identify from '../global/Identify';
+import { contactData } from '../../global/data/contactData';
+import PersonalInfo from '../../global/PersonalInfo';
+import Identify from '../../global/Identify';
 
 export const dataAccordion = [
   {
@@ -21,7 +21,9 @@ export const dataAccordion = [
         <h4>alwaysdata</h4>
         <p>91 Rue du Faubourg Saint-Honoré, 75008 Paris</p>
         <i className="bi bi-globe"> </i>
-        <a href="www.alwaysdata.com">www.alwaysdata.com</a>
+        <a href="https://www.alwaysdata.com" target="blank">
+          www.alwaysdata.com
+        </a>
       </article>
     ),
   },
@@ -33,20 +35,26 @@ export const dataAccordion = [
         <h4>Crédits</h4>
         <p>
           Ce site a été réalisé par John Doe, étudiant au{' '}
-          <a href="https://www.centre-europeen-formation.fr">
+          <a href="https://www.centre-europeen-formation.fr" target="blank">
             Centre Européen de formation
           </a>
         </p>
         <p>
           <em>
             Les images utilisées sur ce site sont libres de droits et ont été obtenues sur
-            le site <a href="https://pixabay.com/fr">Pixabay</a>
+            le site{' '}
+            <a href="https://pixabay.com/fr" target="blank">
+              Pixabay
+            </a>
           </em>
         </p>
         <p>
           <em>
             La favicon de ce site a été fournie par{' '}
-            <a href="https://www.flaticon.com/de/kostenlose-icons/john-doe">
+            <a
+              href="https://www.flaticon.com/de/kostenlose-icons/john-doe"
+              target="blank"
+            >
               John doe Icons erstellt von Freepik - Flaticon
             </a>
           </em>

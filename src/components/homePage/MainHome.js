@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './home.css';
+import './style/home.css';
 import Presentation from './Presentation';
 import Button from '../global/Button';
 import Modal from './Modal';

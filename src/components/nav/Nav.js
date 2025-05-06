@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import Identify from '../global/Identify';
-import './nav.css';
+import './style/nav.css';
 
 const Nav = () => {
   const links = [

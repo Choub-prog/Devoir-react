@@ -3,6 +3,7 @@ import SectionTitleP from '../global/SectionTitleP';
 import LayoutSection from '../global/LayoutSection';
 import FormContact from './FormContact';
 import InfoContact from './InfoContact';
+import '../contact/style/contact.css';
 
 const HomeContact = () => {
   const TexteTitle =

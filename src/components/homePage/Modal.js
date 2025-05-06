@@ -1,8 +1,8 @@
 import React from 'react';
 import Button from '../global/Button';
-import './home.css';
-import useGitHubUser from './useGitHubUser';
-import UserInfoList from './UserInfoList';
+import './style/home.css';
+import useGitHubUser from './utils/useGitHubUser';
+import UserInfoList from './utils/UserInfoList';
 
 const Modal = ({ onClose }) => {
   const userGitHub = useGitHubUser();

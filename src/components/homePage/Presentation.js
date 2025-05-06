@@ -1,6 +1,6 @@
 import React from 'react';
-import LoremP from './LoremP';
-import Bar from './Bar';
+import LoremP from './data/LoremP';
+import Bar from './data/Bar';
 import LayoutSection from '../global/LayoutSection';
 
 const Presentation = () => {

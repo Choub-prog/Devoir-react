@@ -1,8 +1,8 @@
 import React from 'react';
 import Button from '../global/Button';
-import { dataCards } from './dataCards';
+import { dataCards } from './data/dataCards';
 import { useNavigate } from 'react-router-dom';
-import './buttonCard.css';
+import './style/buttonCard.css';
 
 const Card = () => {
   const navigate = useNavigate();

@@ -1,5 +1,5 @@
 import React from 'react';
-import Banner from '../global/Banner';
+import Banner from '../global/data/Banner';
 import SectionTitleP from '../global/SectionTitleP';
 import Card from './Card';
 

@@ -1,8 +1,8 @@
 import React from 'react';
 import Identify from '../global/Identify';
 import PersonalInfo from '../global/PersonalInfo';
-import { contactData } from '../global/contactData';
-import IframeComponent from './IframeComponent';
+import { contactData } from '../global/data/contactData';
+import IframeComponent from './data/IframeComponent';
 
 const InfoContact = () => {
   return (

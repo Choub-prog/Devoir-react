@@ -1,6 +1,6 @@
 import React from 'react';
 
-//withIcons sert uniquement à afficher les icons si il est déclaré.
+// withIcons sert uniquement à afficher les icons si il est déclaré.
 
 const PersonalInfo = ({
   street,

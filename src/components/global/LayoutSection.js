@@ -1,5 +1,7 @@
 import React from 'react';
 
+// Utilisé pour l'affichage dans contact et home.
+
 const LayoutSection = ({ childrenLeft, childrenRight }) => {
   return (
     <section>

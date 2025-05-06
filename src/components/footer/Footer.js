@@ -1,6 +1,6 @@
 import React from 'react';
-import { footerData } from './footerData';
-import UnorderedList from './UnorderedList';
+import { footerData } from './data/footerData';
+import UnorderedList from './utils/UnorderedList';
 
 const Footer = () => {
   return (

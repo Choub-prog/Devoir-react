@@ -1,5 +1,5 @@
 import React from 'react';
-import { dataAccordion } from './dataAccordion';
+import { dataAccordion } from './data/dataAccordion';
 
 const Accordion = () => {
   return (
